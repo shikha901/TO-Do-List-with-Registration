@@ -1,0 +1,56 @@
+$drawerWidth = 240px;
+$drawerZIndex = 1;
+ 
+@mixin transitions-easing-sharp() {
+
+}
+
+@mixin transitions-duration-leavingScreen() {
+
+}
+
+.root {
+  display: flex;
+  @include transitions-easing-sharp();
+
+
+  .appBar {
+    z-index: $drawerZIndex+1;
+
+    .button {
+
+    }
+  }
+
+  .nested {
+    .listRemoveButton {
+
+    }
+  }
+
+  .emptyListText {
+
+  }
+
+  .drawer {
+    .drawerPaper {
+
+    }
+
+    .drawerContainer {
+      .addTodoListButton {
+
+      }
+    }
+  }
+
+  .content {
+    .appBarSpacer {
+
+    }
+  }
+
+  .textField {
+
+  }
+}
